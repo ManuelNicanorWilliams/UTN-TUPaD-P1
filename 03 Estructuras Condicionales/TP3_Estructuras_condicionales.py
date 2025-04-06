@@ -1,5 +1,92 @@
+# Actividad 1:
+
+# Decfinir la mayoria de edad
+MAYOR_DE_EDAD = 18 
+
+# Solicitar la edad del usuario
+edad = int(input("Ingrese su edad: "))
+
+# Verificar si el usuario es mayor de 18 años
+if edad >= MAYOR_DE_EDAD:
+    print("Es mayor de edad ")
+
+else:
+    print("Es menor de edad ")
+
+# Actividad 2:
+
+# Definir nota para aprobar
+NOTA_APROBADO = 6
+
+# Solicitar nota al usuario
+nota = int(input("Ingrese su nota: "))
+
+# Verificar si esta aprobado
+if nota >= NOTA_APROBADO:
+    print("Estas aprobado")
+
+# Mensaje si no aprobo
+else :
+    print("estas desaprobado")
+
+
+# Actividad 3:
+
+# Solicitar número al usuario
+numero = int(input("Ingrese un número par: "))
+
+# Verificar si el numero es par
+if numero % 2 == 0:
+    # mostrar un mensaje en pantalla
+    print("Ha ingresado un número par ")
+
+# Mensaje si no es par
+else:
+    print("Por favor, ingrese un número par ")
+
+
+# Actividad 4:
+
+# Solicitar la edad al usuario
+edad = int(input("Ingrese su edad: "))
+
+# Verificar si es menor de 12 años
+if edad < 12:
+    print("Eres un Niño/a ")
+
+# Verificar si es mayor o igual que 12 años y menor que 18 años.
+elif edad >= 12 and edad <18:
+    print("Eres un adolecente ")
+
+# Verificar si es mayor o igual que 18 años y menor que 30 años.
+elif edad >= 18 and edad < 30:
+    print("Eres un adulto/a joven ")
+
+# En los demas casos mostrar este mensaje
+else:
+    print("Eres un adulto/a ")    
+
+
+# Actividad 5:
+
+# Definir constantes
+LONG_MIN = 8
+LONG_MAX = 14
+
+# Solicitar al usuario que ingrese una contraseña
+contraseña= input("Por favor, igrese una contraseña (debe terner al menos 8 caracteres y no mas de 14)")
+
+# Verificar que la contraseña sea correcta
+if len(contraseña) >= LONG_MIN and len(contraseña) <= LONG_MAX:
+    print("Ha ingresado una contraseña correcta ")
+
+# En caso que se incorrecta mostrar este mensaje
+else:
+    print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
+
 
 #Actividad 6:
+
 #importar del paquete statistics las funciones mode, median y mean
 from statistics import mode, median, mean
 
@@ -32,10 +119,10 @@ frase = input("Ingrese una frase o palabra: ")
 
 # Verificar si la ultima letra del string es una vocal
 if frase and frase[-1] in VOCALES:
-  print(frase + "!")
+    print(frase + "!")
 
 else:
-  print(frase)
+    print(frase)
 
 #Actividad 8:
 
