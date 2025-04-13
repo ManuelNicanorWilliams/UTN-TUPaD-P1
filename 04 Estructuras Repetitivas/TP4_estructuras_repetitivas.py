@@ -31,7 +31,7 @@ print(suma)                                 # 6. Imprime el resultado final
 # 3. Termina cuando se ingresa 0 (condición de salida)
 # 4. Muestra la suma total acumulada
 
-numero = int(input("ingrese un número:"))     # 1. Primer número ingresado
+numero = int(input("ingrese un número:"))      # 1. Primer número ingresado
 suma = 0                                       # 2. Inicializa el acumulador
 while numero != 0:                             # 3. Condición de continuación
     suma += numero                             # 4. Acumula el número actual
@@ -121,7 +121,7 @@ print(f"Positivos: {cantidad_positivos}")
 
 # Actividad 9
 
-# Este código calcula la media aritmética de 100 números ingresados por el usuario
+# Este código calcula la media de 100 números ingresados por el usuario
 
 numeros = 100  # Cantidad total de números a procesar
 suma = 0       # Inicializa el acumulador de la suma total
