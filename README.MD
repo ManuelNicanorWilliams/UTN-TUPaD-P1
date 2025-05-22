@@ -3,7 +3,7 @@
 📍 *Universidad Tecnológica Nacional*  
 
 ## ✨ Estudiante  
-- **Nombre:** Willaims, Manuel NIcanor
+- **Nombre:** Williams, Manuel NIcanor
 - **Comisión:** M2025-23 
 
 ## 📂 Descripción del Repositorio  
